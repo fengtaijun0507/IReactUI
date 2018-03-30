@@ -11,11 +11,11 @@ const App = ({
   return (
     <div>
       <h1>Hello, {name}!</h1>
-      <Button style={{background:'red'}} className = 'test'>test</Button>
+      {/*<Button style={{background:'red'}} className = 'test'>test</Button>*/}
     </div>
   );
 };
-//
+
 App.propTypes = {
   name: PropTypes.string,
 };

@@ -7,8 +7,16 @@ module.exports = {
   ],
   module: {
     loaders: [
-      { test: /\.js?$/, loader: 'babel-loader', exclude: /node_modules/ },
-      { test: /\.s?css$/, loader: 'style-loader!css-loader!sass-loader' },
+      {
+        test: /\.js?$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/,
+        options: {
+          presets: ['env']
+        }
+      },
+      { test: /\.s?css$/,
+       loader: 'style-loader!css-loader!sass-loader' },
     ]
   },
   resolve: {
