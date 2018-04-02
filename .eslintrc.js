@@ -1,4 +1,4 @@
-{
+module.exports = {
   root: true,
   parser: 'babel-eslint',
   plugins: ['import', 'jsx-a11y', 'react'],
@@ -139,11 +139,11 @@
     'no-whitespace-before-property': 'warn',
     'object-curly-spacing': ['warn', 'always'],
     'operator-assignment': ['warn', 'always'],
-    radix: 'warn',
+    'radix': 'warn',
     'require-yield': 'warn',
     'rest-spread-spacing': ['warn', 'never'],
-    'semi': 'warn',
-    strict: ['warn', 'never'],
+    'semi': 0,
+    'strict': ['warn', 'never'],
     'unicode-bom': ['warn', 'never'],
     'use-isnan': 'warn',
     'valid-typeof': 'warn',
