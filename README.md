@@ -2,12 +2,12 @@
 IReactUI
 
 ###简略的介绍
-IReactUI，就是想做一系列组件，旨在提高工作效率，他是可按需加载，并不关注样式，样式可以实际代码中修饰，更关注于功能的实现
+IReactUI，就是想做一系列组件，旨在提高工作效率，符合按需加载，并不关注样式，样式可以实际代码中修饰，更关注于功能的实现
 ###如何在本地运行项目
 
 ```
-// 运行组件库
-npm install
+// 开发环境
+npm install 
 npm link ireactui
 npm run dev
 
@@ -15,7 +15,12 @@ npm run dev
 cd playground
 npm run dev
 ```
+// 生产环境
 
+```
+// 待publish补全
+// npm install ireactui
+```
 
 ###运行 linter
 
