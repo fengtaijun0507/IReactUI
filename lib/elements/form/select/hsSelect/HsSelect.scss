@@ -1,0 +1,24 @@
+.hs-select-val{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.hs-select-option-container{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -1px;
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  z-index: 1;
+  background: #ffffff;
+}
+
+.selecteDiv{
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+}
